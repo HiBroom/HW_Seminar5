@@ -38,7 +38,7 @@ int EvenNumbersArray(int[] array)
     return amount;
 }
 
-int[] array = RandomArray(100, 99, 999);
+int[] array = RandomArray(4, 99, 999);
 PrintArray(array);
 
 int evenNumbers = EvenNumbersArray(array);
