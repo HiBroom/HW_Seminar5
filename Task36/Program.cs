@@ -43,6 +43,6 @@ int SumOfUnevenelements(int[] array)
 int[] array = OneDemensionalyArray(4, -99, 99);
 // Распечатали одномерный массив.
 PrintArray(array);
-
+// Вывели сумму чисел на нечетных позициях массива.
 int sumOfUnevenElements = SumOfUnevenelements(array);
 Console.WriteLine(sumOfUnevenElements);
