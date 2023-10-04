@@ -3,14 +3,6 @@
 // [345, 897, 568, 234] -> 2
 
 
-int Promt(string message)
-{
-    Console.Write(message);
-    string readInput = Console.ReadLine();
-    int result = Convert.ToInt32(readInput);
-    return result;
-}
-
 int[] RandomArray(int length, int minValue, int maxValue)
 {
     int[] array = new int[length];
