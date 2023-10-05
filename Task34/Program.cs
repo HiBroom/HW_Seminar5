@@ -28,7 +28,7 @@ void PrintArray( int[] array)
 int EvenNumbersArray(int[] array)
 {
     int amount = 0;
-    for(int i = 0; i < array.Length - 1; i++)
+    for(int i = 0; i <= array.Length - 1; i++)
     {
         if(array[i] % 2 == 0)
         {
